@@ -2,6 +2,7 @@ package Buncomo.priv;
 
 public class TokenExtent {
 	public boolean isEqual = false;
+	public boolean close = false;
 	public int getTypevar() {
 		return 0;
 	}
@@ -14,7 +15,7 @@ public class TokenExtent {
 	public Token[] getTokensValueVar() {
 		return null;
 	}
-	public Object getValue() {
+	public TokenExtent getValue() {
 		return null;
 	}
 	public void setName(String h) {}

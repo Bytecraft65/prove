@@ -14,4 +14,7 @@ public class TokenOperation extends TokenExtent{
 		for(int i = 0; i < g1.size(); i++) {g[i] = g1.get(i);}
 		return g;
 	}
+	public int getType() {
+		return TokenExtent.operatorType;
+	}
 }
